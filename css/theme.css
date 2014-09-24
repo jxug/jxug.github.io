@@ -1,0 +1,88 @@
+/* http://getbootstrap.com/examples/theme/
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+  background: url("../img/bg.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+
+
+
+*/
+
+
+*{
+  font-family: 'Meiryo UI','ÉÅÉCÉäÉI','ÉqÉâÉMÉmäpÉS Pro W3';
+}
+body {
+  padding-top: 30px;
+
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.starter-template p {
+  text-align:justify;
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+.container .text-muted {
+  margin: 10px 0;
+}
+
+
+.navbar {
+  background-color: #2c3e50;
+     filter:alpha(opacity=85);
+     -moz-opacity:0.85;
+     -khtml-opacity: 0.85;
+     opacity:0.85;
+}
+.navbar .active,
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #000;
+     filter:alpha(opacity=30);
+     -moz-opacity:0.30;
+     -khtml-opacity: 0.30;
+     opacity:0.30;
+}
