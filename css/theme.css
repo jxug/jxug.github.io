@@ -71,18 +71,18 @@ body {
 
 .navbar {
   background-color: #2c3e50;
-     filter:alpha(opacity=85);
-     -moz-opacity:0.85;
-     -khtml-opacity: 0.85;
-     opacity:0.85;
+     filter:alpha(opacity=95);
+     -moz-opacity:0.95;
+     -khtml-opacity: 0.95;
+     opacity:0.95;
 }
 .navbar .active,
 .navbar-inverse .navbar-toggle,
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #000;
-     filter:alpha(opacity=30);
-     -moz-opacity:0.30;
-     -khtml-opacity: 0.30;
-     opacity:0.30;
+     filter:alpha(opacity=10);
+     -moz-opacity:0.10;
+     -khtml-opacity: 0.10;
+     opacity:0.10;
 }
