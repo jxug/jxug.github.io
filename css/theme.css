@@ -30,7 +30,7 @@ body {
 
 
 *{
-  font-family: 'Meiryo UI','ƒƒCƒŠƒI','ƒqƒ‰ƒMƒmŠpƒS Pro W3';
+  font-family: 'Meiryo UI','ãƒ¡ã‚¤ãƒªã‚ª','ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3';
 }
 body {
   padding-top: 30px;
@@ -45,7 +45,9 @@ body {
 .starter-template p {
   text-align:justify;
 }
-
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
 
 
 html {
@@ -76,6 +78,21 @@ body {
      -khtml-opacity: 0.95;
      opacity:0.95;
 }
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #2980B9;
+     filter:alpha(opacity=95);
+     -moz-opacity:0.95;
+     -khtml-opacity: 0.95;
+     opacity:0.95;
+}
+
+/*
 .navbar .active,
 .navbar-inverse .navbar-toggle,
 .navbar-inverse .navbar-toggle:hover,
@@ -86,3 +103,4 @@ body {
      -khtml-opacity: 0.10;
      opacity:0.10;
 }
+*/
