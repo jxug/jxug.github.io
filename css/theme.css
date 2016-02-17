@@ -100,7 +100,12 @@ iframe.twitter-share-button {
   width: 95px !important;
 }
 
-
+img {
+  width: 150px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+}
 
 /*
 .navbar .active,
