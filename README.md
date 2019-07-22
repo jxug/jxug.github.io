@@ -8,3 +8,8 @@ Xamarin のブログを公開しているよ！という方は links.html を修
 
 2019/7/1 [@ytabuchi](https://twitter.com/ytabuchi)
 
+## How to contribute
+
+VS Code を使っている場合、標準の HTML Formatter で `html.format.wrapLineLength` の設定を 0 にしてください。
+
+
